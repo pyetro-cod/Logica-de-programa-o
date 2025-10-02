@@ -1,7 +1,10 @@
-let chute = prompt('Digite um núemro ');
+alert("sistema de pontuação para um jogo")
+let pontuacao = prompt('Digite um núemro ');
 
-if(chute >0){
-    alert(`O número ${chute} é positivo!`)
+if(pontuacao >= 100){
+    alert(`Parabens você fez ${pontuacao} pontos`)
+    console.log('Parabens ');
 } else{
-    alert('Número negativo')
+    alert(`Infelizmente você não teve a nota correta!!`)
+    console.log('Infeleiz vc não tem nota');
 }
