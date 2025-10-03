@@ -1,3 +1,6 @@
-let name = prompt('Digite Seu nome: ');
+let cont = 1
 
-alert(`Parabens voce ${name}`);
+while(cont <= 10){
+    console.log(cont)
+    cont++
+}
