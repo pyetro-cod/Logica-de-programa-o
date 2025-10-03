@@ -1,6 +1,5 @@
-let cont = 10
-
-while(cont > 0){
-    cont--
-    console.log(cont + 1) 
+let num = prompt('Digite um número:');
+while(num >= 0){
+    console.log(num)
+    num--
 }
