@@ -1,9 +1,7 @@
-function fatorial(n){
-    let fatorial = 1;
-    for(let i = 2; i <= n;i++){
-        fatorial *= i;
-    }
-    return fatorial;
+let dolar = 4.80;
+function cambio(d){
+    return d * dolar
 }
 
-console.log(fatorial(5));
+console.log(`O seu $${'$',dolar} Dolar na moeda Brasileira é RS${cambio(dolar)} `);
+
