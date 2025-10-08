@@ -1,7 +1,9 @@
-let dolar = 4.80;
-function cambio(d){
-    return d * dolar
+function areaP (alt, larg){
+    let perimetroRent =  2*(alt + larg);
+    let areaRent = alt * larg;
+    return `Área: ${areaRent} - Perímetro: ${perimetroRent}`
 }
-
-console.log(`O seu $${'$',dolar} Dolar na moeda Brasileira é RS${cambio(dolar)} `);
+let altura = 3;
+let largura = 5;
+console.log(areaP(altura, largura));
 
