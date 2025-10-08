@@ -1,5 +1,9 @@
-function imc(alt, peso){
-    return peso / (alt * alt);
+function fatorial(n){
+    let fatorial = 1;
+    for(let i = 2; i <= n;i++){
+        fatorial *= i;
+    }
+    return fatorial;
 }
 
-console.log(imc(1.60, 70).toFixed(2));
+console.log(fatorial(5));
